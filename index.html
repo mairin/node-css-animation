@@ -6,6 +6,7 @@
 <body>
 
 <h4>Active / Processing Node</h4>
+<p>This loops infinitely so long as the node is processing.</p>
 <div id="tree">
     <div id="tooltip" class="tooltip" style="width: 200px; opacity: 0; left: -9999px; top: -38px;"></div>
     <svg width="885" height="80">
@@ -22,6 +23,7 @@
 </div>
 
 <h4>Queued Node</h4>
+<p>This loops infinitely so long as the node is queued for processing. Once it starts, state shifts to active and it starts the active animation.</p>
 <div id="tree">
     <div id="tooltip" class="tooltip" style="width: 200px; opacity: 0; left: -9999px; top: -38px;"></div>
     <svg width="885" height="80">
@@ -38,6 +40,7 @@
 </div>
 
 <h4>Finished Node: Success</h4>
+<p>This plays once, when the node finishes. It makes the node flash green and fade to white, then it stays white.</p>
 <div id="tree">
     <div id="tooltip" class="tooltip" style="width: 200px; opacity: 0; left: -9999px; top: -38px;"></div>
     <svg width="885" height="80">
@@ -54,6 +57,7 @@
 </div>
 
 <h4>Finished Node: Failed</h4>
+<p>This plays a few times, like a little siren to signal something went wrong. It finishes and stays in a red state.</p>
 <div id="tree">
     <div id="tooltip" class="tooltip" style="width: 200px; opacity: 0; left: -9999px; top: -38px;"></div>
     <svg width="885" height="80">
