@@ -1,0 +1,73 @@
+<html>
+	<head>
+		<title>Transition Basics</title>		
+		<link rel="stylesheet" href="styles.css" media="all" />
+</head>
+<body>
+
+<h4>Active / Processing Node</h4>
+<div id="tree">
+    <div id="tooltip" class="tooltip" style="width: 200px; opacity: 0; left: -9999px; top: -38px;"></div>
+    <svg width="885" height="80">
+        <defs>
+            <marker id="end-arrow" viewBox="0 -5 10 10" refX="6" markerWidth="5" markerHeight="5" orient="auto">
+                <path d="M0,-5L10,0L0,5" fill="#fff"></path>
+            </marker>
+        </defs>
+        <g id="node_2" class="nodegroup active">
+            <text class="nodelabel" transform="translate(422.5, 65 )">pl-dircopy v...</text>
+            <circle class="node" r="10" cx="442.5" cy="40"></circle>
+        </g>
+    </svg>
+</div>
+
+<h4>Queued Node</h4>
+<div id="tree">
+    <div id="tooltip" class="tooltip" style="width: 200px; opacity: 0; left: -9999px; top: -38px;"></div>
+    <svg width="885" height="80">
+        <defs>
+            <marker id="end-arrow" viewBox="0 -5 10 10" refX="6" markerWidth="5" markerHeight="5" orient="auto">
+                <path d="M0,-5L10,0L0,5" fill="#fff"></path>
+            </marker>
+        </defs>
+        <g id="node_2" class="nodegroup queued">
+            <text class="nodelabel" transform="translate(422.5, 65 )">pl-dircopy v...</text>
+            <circle class="node" r="10" cx="442.5" cy="40"></circle>
+        </g>
+    </svg>
+</div>
+
+<h4>Finished Node: Success</h4>
+<div id="tree">
+    <div id="tooltip" class="tooltip" style="width: 200px; opacity: 0; left: -9999px; top: -38px;"></div>
+    <svg width="885" height="80">
+        <defs>
+            <marker id="end-arrow" viewBox="0 -5 10 10" refX="6" markerWidth="5" markerHeight="5" orient="auto">
+                <path d="M0,-5L10,0L0,5" fill="#fff"></path>
+            </marker>
+        </defs>
+        <g id="node_2" class="nodegroup success">
+            <text class="nodelabel" transform="translate(422.5, 65 )">pl-dircopy v...</text>
+            <circle class="node" r="10" cx="442.5" cy="40"></circle>
+        </g>
+    </svg>
+</div>
+
+<h4>Finished Node: Failed</h4>
+<div id="tree">
+    <div id="tooltip" class="tooltip" style="width: 200px; opacity: 0; left: -9999px; top: -38px;"></div>
+    <svg width="885" height="80">
+        <defs>
+            <marker id="end-arrow" viewBox="0 -5 10 10" refX="6" markerWidth="5" markerHeight="5" orient="auto">
+                <path d="M0,-5L10,0L0,5" fill="#fff"></path>
+            </marker>
+        </defs>
+        <g id="node_2" class="nodegroup failed">
+            <text class="nodelabel" transform="translate(422.5, 65 )">pl-dircopy v...</text>
+            <circle class="node" r="10" cx="442.5" cy="40"></circle>
+        </g>
+    </svg>
+</div>
+
+</body>
+</html>
