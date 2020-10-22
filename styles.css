@@ -33,7 +33,7 @@ body, .nodelabel, h4 {
     animation-name: active;
     animation-duration: 5s;
     animation-timing-function: ease-in;
-    animation-iteration-count: 100;
+    animation-iteration-count: infinite;
     animation-delay: 1s;
     animation-fill-mode: both;
 }
@@ -42,7 +42,7 @@ body, .nodelabel, h4 {
     animation-name: queued;
     animation-duration: 5s;
     animation-timing-function: ease-in;
-    animation-iteration-count: 100;
+    animation-iteration-count: infinite;
     animation-delay: 1s;
     animation-fill-mode: both;
 }
