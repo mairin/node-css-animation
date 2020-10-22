@@ -1,3 +1,7 @@
+svg {
+	border: 1px solid #444
+}
+
 body, .nodelabel, h4 {
     background-color: black;
     color: white;
